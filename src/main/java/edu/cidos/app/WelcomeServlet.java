@@ -32,6 +32,7 @@ public class WelcomeServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html><head><title>My Profile</title></head><body>");
 		out.println("Hello World");
+		out.println("This is a good day to start FRESH");
 		out.println("<hr>");
 		out.println("<h1 style='color:red'>Wed Development Technology</h1>");
 		out.println("</body></html>");
